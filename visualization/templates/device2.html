@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Package Location Tracker</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"> -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js"></script>
+
+        <style>
+            /* body { margin: 0; padding: 0; } */
+            #map { position: relative; top: 0; bottom: 0; width: 100%; }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-teal w3-bar-block" style="width:20%">
+            <a href="/"><h3 class="w3-bar-item w3-teal"><b>Package Location Tracker</b></h3></a>
+            <h4 class="w3-bar-item w3-light-blue" >Device list</h4>
+            <a href="/device1" class="w3-bar-item w3-button">a1b2c</a>
+            <a href="/device2" class="w3-bar-item w3-button w3-blue">Device 2</a>
+        </div>
+
+        <!-- Page Content -->
+        <div style="margin-left:20%">
+
+            <div class="w3-container w3-light-blue">
+                <h1>Device 2</h1>
+            </div>
+
+            <div class="w3-container" id = "map">
+                <h2>Package Location tracker</h2>
+                <p>Not yet connected</p>
+
+            </div>
+
+        </div>
+    </body>
+</html>
