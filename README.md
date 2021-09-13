@@ -6,6 +6,7 @@ Technologies used:
 * GPSmodule: Neo-6m
 * Visualization: python(Flask), Mapbox
 * Blockchain: The Blockchain implemented in the solution is developed from scratch and referenced from: https://github.com/jzsiggy/blockchain-from-scratch<br />
+ 
 Folders: <br />
 * Documents: The details regarding the entire project can be found
 * NodeMcu_draft1: Nodemcu_code(C++ code, .ino file)
